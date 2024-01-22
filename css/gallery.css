@@ -29,4 +29,51 @@ width: 800px !important;
 .header{
   display: none !important;
 }
+
+.heigt-image{
+  height: 300px;
+  width: 360px !important;
+  }
+}
+
+@media only screen and (max-width: 494px) {  
+  .heigt-image{
+    height: 484px;
+    width: 484px !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {  
+  .heigt-image{
+    height: 470px;
+    width: 470px !important;
+    }
+}
+
+@media only screen and (max-width: 414px) {  
+  .heigt-image{
+    height: 414px;
+    width: 414px !important;
+    }
+}
+
+@media only screen and (max-width: 375px) {  
+  .heigt-image{
+    height: 360px;
+    width: 360px !important;
+    }
+}
+
+@media only screen and (max-width: 360px) {  
+  .heigt-image{
+    height: 350px;
+    width: 350px !important;
+    }
+}
+
+@media only screen and (max-width: 320px) {  
+  .heigt-image{
+    height: 310px;
+    width: 310px !important;
+    }
 }
