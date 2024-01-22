@@ -183,6 +183,10 @@ nav>span:hover>div>a {
     height: 400px;
 }
 
+.bg-color{
+    background: #8d0c00;
+}
+
 .section-card {
     background: #410000;
 }

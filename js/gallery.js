@@ -1,23 +1,3 @@
-function tabs() {
-  document.addEventListener("DOMContentLoaded", function () {
-    const tabs = document.querySelectorAll(".flex button");
-    const tabContents = document.querySelectorAll(".tab-content");
-
-    tabs.forEach((tab, index) => {
-      tab.addEventListener("click", () => {
-        // Oculta todos los contenidos de las pestañas
-        tabContents.forEach((content) => {
-          content.classList.add("hidden");
-        });
-
-        // Muestra el contenido de la pestaña actual
-        tabContents[index].classList.remove("hidden");
-      });
-    });
-  });
-}
-
-tabs();
 
 document.addEventListener("DOMContentLoaded", function () {
   const images = document.querySelectorAll(".h-gallery0ne img");
@@ -43,3 +23,11 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const toggleMobileMenu = document.getElementById("toggleMobileMenus");
+    const mobileMenu = document.getElementById("mobileMenu");
+    toggleMobileMenu.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+    });
+  });
