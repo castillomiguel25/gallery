@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>l2madness-shop</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/paymentForm.css" />
+  <link rel="icon" href="./img/logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-700 custom-cursor">
+  <header class="flex items-center justify-center">
+    <nav class="ml-5 nav">
+      <a href="https://l2madness.net/" class="o1"><span class="opac"></span></a>
+      <span class="o2"><span class="opac"></span>
+        <a href="./?page=info"></a>
+        <div style="left: -28px">
+          <a href="https://l2madness.net/?page=info"> INFORMACIONES </a>
+          <a href="https://l2madness.net/?page=support"> SOPORTES </a>
+          <a href="https://l2madness.net/?page=donations"> DONACIONES </a>
+        </div>
+      </span>
+      <a href="https://l2madness.net/?page=download" class="o3"><span class="opac"></span></a>
+      <span class="o4"><span class="opac"></span>
+        <a href="https://l2madness.net/?page=register"></a>
+        <div style="left: -17px">
+          <a href="https://l2madness.net/?page=register"> REGISTRAR </a>
+          <a href="https://l2madness.net/?page=changepass">
+            CAMBIAR CONTRASENA
+          </a>
+        </div>
+      </span>
+      <span class="o5"><span class="opac"></span>
+        <a href="https://l2madness.net/?page=toppvp"></a>
+        <div style="left: -37px">
+          <a href="https://l2madness.net/?page=toppvp">Top PvP</a>
+          <a href="https://l2madness.net/?page=toppk">Top Pk</a>
+          <a href="https://l2madness.net/?page=toponline">Top Online</a>
+        </div>
+      </span>
+      <a href="https://l2madness.net/?page=donations" class="o6"><span class="opac"></span></a>
+    </nav>
+  </header>
+
+  <div class="lg:hidden fixed top-0 left-0 w-full bg-nav-mobile">
+    <div class="flex justify-between items-center px-4 py-3">
+      <button id="toggleMobileMenu" class="text-white focus:outline-none">
+        <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 6h16M4 12h16m-7 6h7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+      </button>
+      <a href="#" class="text-white font-bold">l2madness-shop</a>
+    </div>
+    <div id="mobileMenu" class="hidden">
+      <ul class="px-2 py-3 text-white">
+        <li><a href="https://l2madness.net/">Inicio</a></li>
+
+        <li>
+          <div>
+            <button class="flex items-center">
+              <span class="text-gray-400 font-bold">Server</span>
+            </button>
+            <ul class="ml-4">
+              <li>
+                <a href="https://l2madness.net/?page=info">Informaciones</a>
+              </li>
+              <li>
+                <a href="https://l2madness.net/?page=support">Soportes</a>
+              </li>
+              <li>
+                <a href="https://l2madness.net/?page=donations">Donaciones</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li><a href="https://l2madness.net/?page=download">Download</a></li>
+
+        <li>
+          <div>
+            <button class="flex items-center">
+              <span class="text-gray-400 font-bold">Acoount</span>
+            </button>
+            <ul class="ml-4">
+              <li>
+                <a href="https://l2madness.net/?page=register"> Registrar</a>
+              </li>
+              <li>
+                <a href="https://l2madness.net/?page=changepass">
+                  Cambiar Contrasena
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li>
+          <div>
+            <button class="flex items-center">
+              <span class="text-gray-400 font-bold">Stats</span>
+            </button>
+            <ul class="ml-4">
+              <li>
+                <a href="https://l2madness.net/?page=toppvp">Top PvP</a>
+              </li>
+              <li>
+                <a href="https://l2madness.net/?page=toppk">Top Pk</a>
+              </li>
+              <li>
+                <a href="https://l2madness.net/?page=toponline">Top Online</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="https://l2madness.net/?page=donations">Donate</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="flex justify-center items-center lg:mt-20">
+    <div
+      class="section-card-one flex-col flex items-center justify-center card-precio rounded-lg overflow-hidden text-white shadow-xl m-4 border-4 border-gray-900">
+      <div class="px-6 py-4">
+        <div class="font-bold text-lg mb-2">
+          <h1 class="text-3xl">NUEVA IMPLEMENTACIÓN DE PAGOS</h1>
+        </div>
+      </div>
+      <div>
+        <div>
+          <p class="text-color text-2xl mx-10 font-bold">
+            OBTEN BONUS AL APOYARNOS
+          </p>
+        </div>
+        <div class="flex">
+          <a target="_blank" href="https://www.youtube.com/watch?v=vZH82oUw4RQ"
+            class="inline-block btn text-bold text-white font-bold py-2 px-4 mr-5 rounded mt-5 text-xl">
+            NO SE COMO HACERLO
+          </a>
+
+          <a target="_blank" href="https://www.youtube.com/watch?v=vZH82oUw4RQ">
+            <img src="img/video-icons.png" class="h-10 w-10 mt-5 mr-5" alt="icons-video" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div>
+      <img class="img-desktop" src="img/image.png" alt="image" />
+    </div>
+  </div>
+
+  <div class="flex">
+    <video autoplay muted loop id="videoFondo">
+      <source src="./video/video-TWO.mp4" type="video/mp4" />
+    </video>
+  </div>
+
+  <section>
+    <div class="flex flex-wrap justify-center">
+      <div
+        class="flex flex-col items-center justify-center section-card max-w-xs card-precio rounded overflow-hidden text-white shadow-lg m-4 animate-slide-down">
+        <div class="px-6 border-b-2">
+          <div class="flex justify-center items-center">
+            <img class="h-16 w-16" src="img/oro.png" alt="img" />
+          </div>
+          <div class="font-bold text-lg mb-2">
+            Recibe 50+5 Donation Coin’s
+          </div>
+        </div>
+        <div class="mt-3">
+          <div>
+            <p class="text-green-500 text-3xl font-bold">$5,00</p>
+          </div>
+          <div class="mt-5">
+            <a class="btn" href="#" id="openModal" data-producto="50+5" data-precio="5">Lo quiero</a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="flex flex-col items-center justify-center section-card max-w-xs card-precio rounded overflow-hidden text-white shadow-lg m-4 animate-slide-two">
+        <div class="px-6 border-b-2">
+          <div class="flex justify-center items-center">
+            <img class="h-16 w-16" src="img/oro.png" alt="img" />
+          </div>
+          <div class="font-bold text-lg mb-2">
+            Recibe 100+15 Donation Coin’s
+          </div>
+        </div>
+        <div class="mt-3">
+          <div>
+            <p class="text-green-500 text-3xl font-bold">$10,00</p>
+          </div>
+          <div class="mt-5">
+            <a class="btn" href="#" id="openModal" data-producto="100+15" data-precio="10">Lo quiero</a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="flex flex-col items-center justify-center section-card max-w-xs card-precio rounded overflow-hidden text-white shadow-lg m-4 animate-slide-three">
+        <div class="px-6 border-b-2">
+          <div class="flex justify-center items-center">
+            <img class="h-16 w-16" src="img/oro.png" alt="img" />
+          </div>
+          <div class="font-bold text-lg mb-2">
+            Recibe 300+60 Donation Coin’s
+          </div>
+        </div>
+        <div class="mt-3">
+          <div>
+            <p class="text-green-500 text-3xl font-bold">$30,00</p>
+          </div>
+          <div class="mt-5">
+            <a class="btn" href="#" id="openModal" data-producto="300+60" data-precio="30">Lo quiero</a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="flex flex-col items-center justify-center section-card max-w-xs card-precio rounded overflow-hidden text-white shadow-lg m-4 animate-slide-four">
+        <div class="px-6 border-b-2">
+          <div class="flex justify-center items-center">
+            <img class="h-16 w-16" src="img/oro.png" alt="img" />
+          </div>
+          <div class="font-bold text-lg mb-2">
+            Recibe 500+150 Donation Coin’s
+          </div>
+        </div>
+        <div class="mt-3">
+          <div>
+            <p class="text-green-500 text-3xl font-bold">$50,00</p>
+          </div>
+          <div class="mt-5">
+            <a class="btn" href="#" id="openModal" data-producto="500+150" data-precio="50">Lo quiero</a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="flex flex-col items-center justify-center section-card max-w-xs card-precio rounded overflow-hidden text-white shadow-lg m-4 animate-slide-five">
+        <div class="px-6 border-b-2">
+          <div class="flex justify-center items-center">
+            <img class="h-16 w-16" src="img/oro.png" alt="img" />
+          </div>
+          <div class="font-bold text-lg mb-2">
+            Recibe 1000+500 Donation Coin’s
+          </div>
+        </div>
+        <div class="mt-3">
+          <div>
+            <p class="text-green-500 text-3xl font-bold">$100,00</p>
+          </div>
+          <div class="mt-5">
+            <a class="btn" href="#" id="openModal" data-producto="1000+500" data-precio="100">Lo quiero</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal" class="hidden fixed z-10 inset-0">
+      <div class="flex items-center justify-center min-h-screen p-4">
+        <div class="modal-overlay absolute w-full h-full bg-gray-900 opacity-50"></div>
+
+        <div class="modal-container bg-white w-11/12 md:max-w-md mx-auto rounded shadow-lg z-50">
+          <div class="modal-content py-4 text-left px-6" style="max-height: 70vh; overflow-y: auto;">
+            <div class="flex justify-between items-center pb-3">
+              <p class="text-2xl font-bold"></p>
+              <button id="closeModal" class="modal-close cursor-pointer z-50">
+                <svg class="fill-current text-black" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                  viewBox="0 0 18 18">
+                  <path
+                    d="M14.72 15.28a1 1 0 0 1-1.42 0L9 10.41l-4.3 4.3a1 1 0 0 1-1.4-1.42L7.59 9 3.3 4.7a1 1 0 0 1 1.42-1.4L9 7.59l4.3-4.3a1 1 0 0 1 1.4 1.42L10.41 9l4.3 4.3a1 1 0 0 1 0 1.42z" />
+                </svg>
+              </button>
+            </div>
+            <div id="paypal-button-container"></div>
+
+            <div
+              class="flex flex-col items-center justify-center section-card-modal rounded overflow-hidden cursor-pointer text-white shadow-lg animate-slide-down"
+              onmouseover="mostrarDiv()">
+              <div class="border-b-2">
+                <div class="font-bold text-lg">
+                  Airtm.com
+                </div>
+                <div class="mt-1 mb-1 model-methods">
+                  <a class="text-lg text-blue-500 font-bold" target="_blank"
+                    href="https://app.airtm.com/send-or-request/send">ir
+                    a Airtm.com</a>
+                  <div class="flex">
+                    <p class="mt-1 mb-1 text-lg font-bold">
+                      enviar a <span id="email">diunexy18@gmail.com</span>
+                    </p>
+                    <button onclick="copyMail()"><i class="far fa-copy ml-5"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="btn-whatsapp">
+              <a href="http://api.whatsapp.com/send?phone=+51960418139&text=%20Hola%20quiero%20hacer%20una%20donacion"
+                target="_blank">
+                <img src="http://s2.accesoperu.com/logos/btn_whatsapp.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <script src="js/app.js"></script>
+
+  <script
+    src="https://www.paypal.com/sdk/js?client-id=AZKSXSafUwNXMX7gbFMW_a_6PPk0JiEBJVH9BE5PYiAgekqe30CYJqBu6hWcBClezJhVZyCy_Le2GzJ_&components=buttons"></script>
+</body>
+
+</html>
